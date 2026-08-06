@@ -1,50 +1,110 @@
 # Ex.No.4-EXP 4 Generate the Prompt and eveluate that for following prompt types - Comparative Analysis Prompt Experiential Perspective Prompt - Everyday Functioning Prompts - Universal Prompt Structures Prompt Refinements- Prompt Size Limitations.
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 06/08/2026                                                                      
+### REGISTER NUMBER : 212223060266
 ### Aim: To write the prompt for the following prompt types and ompare that with differenet AI tools and evaluate that using any one evaluation method (eg. Rubrics). 1.Comparative Analysis Prompt 2. Experiential Perspective Prompt 3. Everyday Functioning Prompts 4. Universal Prompt Structures Prompt Refinements 5. Prompt Size Limitations design an AI 
 
-### Explanation - Any one use case from Unit 5 and write the prompt for that with the unit 2 Prompt types given above.
+## Use Case:
 
-Procedure:
-1.	Define the Scenario and Use Case:
-Scenario:
-The manufacturing industry is looking to reduce manual monitoring and increase efficiency through automation. The system will utilize IoT devices and embedded controllers to automate equipment, monitor performance, and enable predictive maintenance. The goal is to streamline the production process, minimize downtime, and enhance energy efficiency.
-Target Audience:
-Manufacturing companies, specifically in sectors like automotive, electronics, and food processing, where automation can significantly improve productivity.
+## Smart Manufacturing using IoT and Embedded Systems
 
-Main Objectives:
+The manufacturing industry is looking to reduce manual monitoring and increase efficiency through automation. The system uses IoT devices and embedded controllers to automate equipment, monitor performance, enable predictive maintenance, reduce downtime, and improve energy efficiency.
 
-•	Improve production efficiency by 30%.
-•	Minimize machinery downtime with predictive maintenance.
-•	Enable real-time monitoring and remote control of manufacturing systems.
-•	Reduce energy consumption by optimizing processes.
- 
-2.	Identify Prompt Patterns for Each Design Aspect:
-Idea Generation Prompts:
+## 1. Zero-shot Prompting
+Prompt:
 
-Comparative Analysis Prompt
-Definition: Asking for a comparison between two or more concepts, often highlighting similarities and differences.
-•	"Compare and contrast deep learning and machine learning."
-•	"How do renewable and non-renewable energy sources differ?"
+Explain how IoT devices and embedded controllers can improve manufacturing efficiency through automation, predictive maintenance, and energy optimization. Include the advantages and challenges.
 
-Experiential Perspective Prompt:
-> 	“As a software engineer, what are the benefits of using cloud computing in your projects?”
->  “From a student’s perspective, describe the challenges of online learning.”
-
-Everyday Functioning Prompts:
-*	  “Describe the role of machine learning in everyday apps like YouTube or Netflix."
-*	 	“How is encryption used in daily life when sending WhatsApp messages?”
-
-Universal Prompt Structures:
-^ 	“Explain [concept] in simple terms with an example.”
-^  “Explain the process of [task] step by step.”
-
-Prompt Size Limitations:
-&  	“Translate this 5000-word essay into Tamil.”
-→ Manageable chunks: “Translate the first 1000 words into Tamil, then continue.”
-&  “Give me 50 examples of AI applications.”
-→ Adjust for size: “Give me 10 AI applications at a time.”
+<img width="1400" height="933" alt="image" src="https://github.com/user-attachments/assets/b041b613-ec40-4d60-88d1-da76abdfe135" />
 
 
+The integration of IoT devices and embedded controllers enables real-time monitoring of machinery, predictive maintenance, automated control, and optimized energy usage. These technologies reduce downtime, improve productivity, and lower operational costs. However, implementation requires secure communication, proper infrastructure, and skilled personnel.
 
-# Result: The various types of Prompts are executed successfully with generated the report.
+## 2. Few-shot Prompting
+Prompt
+
+Example 1:
+
+Input: How does IoT help in agriculture?
+
+Output: IoT sensors monitor soil moisture, temperature, and humidity, helping farmers automate irrigation and improve crop yield.
+
+Example 2:
+
+Input: How does IoT help in healthcare?
+
+Output: IoT devices monitor patient health in real time, enabling remote healthcare and early diagnosis.
+
+Now answer:
+
+Input: How does IoT help in manufacturing?
+
+<img width="1136" height="646" alt="image" src="https://github.com/user-attachments/assets/eb77997e-1dcc-4172-87dd-7183fad42ee5" />
+
+
+IoT devices monitor machine performance, collect production data, enable predictive maintenance, automate equipment, reduce downtime, and improve overall production efficiency.
+
+## 3. Chain of Thought Prompting
+Prompt
+
+Explain step by step how an IoT-based manufacturing automation system works. Start from sensor data collection, then communication, processing, predictive maintenance, automation, and finally explain how production efficiency improves.
+
+<img width="784" height="1168" alt="image" src="https://github.com/user-attachments/assets/19cf5f12-060b-4581-a7e4-1ea407e0eaa5" />
+
+
+Step 1: Sensors collect temperature, vibration, and machine status.
+
+Step 2: Embedded controllers receive sensor data.
+
+Step 3: Data is transmitted through IoT networks.
+
+Step 4: AI analyzes equipment condition.
+
+Step 5: Predictive maintenance identifies faults before failure.
+
+Step 6: Machines are automatically controlled.
+
+Step 7: Downtime decreases and production efficiency increases.
+
+## 4. Persona Pattern
+Prompt
+
+You are an Industrial Automation Engineer with 15 years of experience. Explain to a manufacturing company how IoT and embedded systems improve production efficiency while reducing maintenance costs.
+ <img width="900" height="594" alt="image" src="https://github.com/user-attachments/assets/b690dd27-2d32-4ad8-ab06-cf7afff0c349" />
+
+
+As an Industrial Automation Engineer, I recommend implementing IoT sensors across production lines to continuously monitor machine health. Embedded controllers automate operations, while predictive maintenance prevents unexpected failures. This improves productivity, reduces maintenance costs, and increases energy efficiency.
+
+## 5. Reverse Prompting
+Prompt
+
+I want the final result to be a manufacturing plant with minimal downtime, automated monitoring, predictive maintenance, and improved energy efficiency. What prompt should I give an AI assistant to generate a complete implementation plan?
+<img width="1017" height="696" alt="image" src="https://github.com/user-attachments/assets/1734617a-b102-4f98-808c-acdce0878bce" />
+
+
+Suggested Prompt:
+
+"Generate a detailed implementation plan for an IoT-based smart manufacturing system that includes sensor selection, embedded controllers, communication protocols, predictive maintenance, real-time monitoring, energy optimization, hardware requirements, software architecture, implementation steps, challenges, and future enhancements."
+
+## 6. Graph Prompting
+Prompt
+
+Represent the workflow of an IoT-based smart manufacturing automation system as a flowchart showing sensors, embedded controllers, cloud platform, AI analysis, predictive maintenance, automation, and production improvement.
+
+<img width="1591" height="776" alt="image" src="https://github.com/user-attachments/assets/5388fb8f-ecdc-42d0-9355-7c2349e5be73" />
+
+
+
+## 7. Active Prompting
+Prompt
+
+Before generating the manufacturing automation solution, ask me questions about factory size, machinery type, production capacity, communication technology, budget, and maintenance requirements. Then generate the best solution based on my answers.
+
+<img width="1451" height="860" alt="image" src="https://github.com/user-attachments/assets/01386538-f568-4ffd-905c-68c2e839ee5e" />
+
+## Comparison Graph (Rubrics):
+<img width="1024" height="989" alt="image" src="https://github.com/user-attachments/assets/13dfd96e-7e5c-46a1-9d79-5a71d97e939f" />
+
+<img width="915" height="420" alt="image" src="https://github.com/user-attachments/assets/581474f4-1bfa-40c8-ae37-239c88143832" />
+
+# Result: 
+The various types of Prompts are executed successfully with generated the report.
